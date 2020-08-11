@@ -1,0 +1,10 @@
+{
+  "input_type": "file",
+  "charlist": "Ã©0123456789",
+  "devel": "true",
+  "source": "test.txt",
+  "filename": "test.txt",
+  "text": "test not a file test not a file.",
+  "url": "https://www.lipsum.com/",
+  "threshold": "2"
+}
