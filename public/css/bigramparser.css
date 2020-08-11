@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  font-size: 12pt;
+  color: black;
+}
+
+div#wrapper {
+  border: 1px solid lightsteelblue;
+}
+
+header {
+  display: flex;
+  background-color:lightsteelblue;
+}
+
+div#logo {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+
+}
+
+nav {
+  margin: 10px;
+  border: 1px solid black;
+  width: available;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+div#output {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+div#output > div {
+  border: 1px solid lightsteelblue;
+  padding: 10px;
+}
+
+
+
+div#input {
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+div#input > pre {
+  white-space: pre-wrap;
+}
+
+
+
+div#output table {
+  width: 300px;
+}
+
+
+div#output table, tr, td, th {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+footer {
+  background-color:lightsteelblue;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+}
